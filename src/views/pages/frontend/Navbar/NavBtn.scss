@@ -1,0 +1,10 @@
+.menu_button {
+  color: #00000085 !important;
+  padding: 0.5rem 1rem !important;
+  &:hover {
+    background-color: #5BBA47;
+    color: #ffffff !important;
+    transition: ease-in 0.25s;
+    border-color: transparent;
+  }
+}
