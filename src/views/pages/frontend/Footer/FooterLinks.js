@@ -1,0 +1,49 @@
+import React from 'react'
+import './FooterLinks.scss'
+
+function FooterLinks() {
+  return (
+    <div>
+        <div className="container mb-3">
+            <div className="row justify-content-center">
+                <div className="col-md-12 mb-4" data-aos="fade-up">
+                    <div className="center_title mb-1">
+                    <h3 className="text-center text-dark title-fm">Quick Links</h3>
+                    <span className="center_title_underline mt-1"></span>
+                    </div>
+                    <p className="short_text body-fm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                    excepturi quos?
+                    </p>
+                    <div className="footer_links body-fm">
+                    <a href="/">Services</a>
+                    <a href="/">About Us</a>
+                    <a href="/">Website and Apps</a>
+                    <a href="/">Our Mission</a>
+                    </div>
+                </div>
+                <span className="green_hr_line"></span>
+                <div className="col-md-12" data-aos="fade-up">
+                    <div className="center_title mb-1">
+                    <h3 className="text-center text-dark title-fm">Other Information</h3>
+                    <span className="center_title_underline mt-1"></span>
+                    </div>
+                    <p className="short_text body-fm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                    excepturi quos?
+                    </p>
+                    <div className="footer_links2 body-fm">
+                        <a href='/' >Employees</a>
+                        <a href='/' >Client and Future Plans</a> 
+                        <a href='/' >About Partnerships</a>
+                        <a href='/' >Target of Market</a>
+                        <a href='/' >Cold Chain and Transportation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default FooterLinks

@@ -1,4 +1,7 @@
 .menu_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #00000085 !important;
   padding: 0.5rem 1rem !important;
   &:hover {
