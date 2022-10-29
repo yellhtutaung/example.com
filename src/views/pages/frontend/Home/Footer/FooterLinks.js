@@ -16,10 +16,10 @@ function FooterLinks() {
                     excepturi quos?
                     </p>
                     <div className="footer_links body-fm">
-                    <a href="/">Services</a>
-                    <a href="/">About Us</a>
-                    <a href="/">Website and Apps</a>
-                    <a href="/">Our Mission</a>
+                    <a href="#services">Services</a>
+                    <a href="#aboutus">About Us</a>
+                    <a href="#it_products">Website and Apps</a>
+                    <a href="#mission">Our Mission</a>
                     </div>
                 </div>
                 <span className="green_hr_line"></span>
@@ -33,11 +33,11 @@ function FooterLinks() {
                     excepturi quos?
                     </p>
                     <div className="footer_links2 body-fm">
-                        <a href='/' >Employees</a>
-                        <a href='/' >Client and Future Plans</a> 
-                        <a href='/' >About Partnerships</a>
-                        <a href='/' >Target of Market</a>
-                        <a href='/' >Cold Chain and Transportation</a>
+                        <a href='/employees' >Employees</a>
+                        <a href='/client' >Client and Future Plans</a>
+                        <a href='/partnerships' >About Partnerships</a>
+                        <a href='/target-market' >Target of Market</a>
+                        <a href='/coldchain-transport' >Cold Chain and Transportation</a>
                     </div>
                 </div>
             </div>

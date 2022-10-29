@@ -1,13 +1,13 @@
 import ClientBanner from "./ClientBanner/ClientBanner";
-import NavLayout from "../Home/Navbar/NavLayout";
 import OurClients from "./OurClients/OurClients";
 import FeaturePlans from "./FeaturePlans/FeaturePlans";
 import OtherFooter from "../OtherFooter/OtherFooter";
+import OtherNavLayout from "../OtherNav/OtherNavLayout";
 
 const Client = () => {
     return (
         <div>
-            <NavLayout/>
+            <OtherNavLayout/>
             <ClientBanner/>
             <OurClients/>
             <FeaturePlans/>

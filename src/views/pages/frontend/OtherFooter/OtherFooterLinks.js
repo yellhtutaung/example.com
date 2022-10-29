@@ -16,11 +16,12 @@ const OtherFooterLinks = () => {
                             excepturi quos?
                         </p>
                         <div className="footer_links2 body-fm">
-                            <a href='/src/views/pages' >Employees</a>
-                            <a href='/src/views/pages' >Client and Future Plans</a>
-                            <a href='/src/views/pages' >About Partnerships</a>
-                            <a href='/src/views/pages' >Target of Market</a>
-                            <a href='/src/views/pages' >Cold Chain and Transportation</a>
+                            <a href='/' >Home</a>
+                            <a href='/employees' >Employees</a>
+                            <a href='/client' >Client and Future Plans</a>
+                            <a href='/partnerships' >About Partnerships</a>
+                            <a href='/target-market' >Target of Market</a>
+                            <a href='/coldchain-transport' >Cold Chain and Transportation</a>
                         </div>
                     </div>
                 </div>

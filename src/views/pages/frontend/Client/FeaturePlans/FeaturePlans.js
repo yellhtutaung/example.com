@@ -5,9 +5,8 @@ import malaysia from '../../../../../assets/images/malaysia.jpg';
 
 const FeaturePlans = () => {
     return (
-        <section className="container-fluid" id="future" data-aos="fade-up">
-            <div >
-                <div className="row" >
+        <section id="future" data-aos="fade-up">
+                <div className="d-flex flex-wrap" >
                     <div
                         className="col-md-6 col-lg-4 our_future_card_container"
                     >
@@ -69,7 +68,6 @@ const FeaturePlans = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     )
 }

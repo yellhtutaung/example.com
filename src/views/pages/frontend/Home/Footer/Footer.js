@@ -13,7 +13,7 @@ function Footer() {
     <div>
         <section id="footer">
             <div className="container-fluid">
-                <div className="row footer_section_1">
+                <div className="d-flex flex-wrap footer_section_1">
                     <div className="col-md-6 border_right">
                     <FooterLinks />
                     </div>

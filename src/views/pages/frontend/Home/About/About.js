@@ -5,8 +5,8 @@ function About() {
   return (
     <div>
         <section className="about_section" data-aos="fade-up" id="aboutus">
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid m-0 p-0">
+                <div className="d-flex flex-wrap">
                     <div className="col-md-6 about_bg"></div>
                     <div className="col-md-6 about_text my-3">
                     <div className="main_title">

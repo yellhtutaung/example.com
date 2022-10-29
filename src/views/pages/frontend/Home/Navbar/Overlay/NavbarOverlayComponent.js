@@ -1,17 +1,22 @@
 import React from 'react';
+import './NavbarOverlayComponent.scss'
 
-const NavbarOverlayComponent = () 
+const NavbarOverlayComponent = () =>
 {
+  const overlayClose = () => {
+    document.getElementById("navbar_overlay").style.height = "0%";
+  }
+
   return (
     <div id="navbar_overlay" className="overlay">
-      <a href="javascript:void(0)" className="closebtn" >&times;</a>
+      <a href="javascript:void(0)" onClick={overlayClose} className="closebtn" >&times;</a>
         <div className="overlay-content">
-          <p>Home</p>
-          <p>Employees</p>
-          <p>Target of Market</p>
-          <p>About Partnerships</p>
-          <p>Client and Future Plans</p>
-          <p>Cold Chains and Transportation</p>
+          <a href='/' >Home</a>
+          <a href='/employees' >Employees</a>
+          <a href='/client' >Client and Future Plans</a>
+          <a href='/partnerships' >About Partnerships</a>
+          <a href='/target-market' >Target of Market</a>
+          <a href='/coldchain-transport' >Cold Chain and Transportation</a>
         </div>
     </div>
   )

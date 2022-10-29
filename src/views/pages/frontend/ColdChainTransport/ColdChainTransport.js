@@ -1,13 +1,13 @@
 import CCTBanner from "./CCTBanner/CCTBanner";
-import NavLayout from "../Home/Navbar/NavLayout";
 import OtherFooter from "../OtherFooter/OtherFooter";
 import ColdChainComponent from "./ColdChainComponent/ColdChainComponent";
 import Transportation from "./Transportation/Transportation";
+import OtherNavLayout from "../OtherNav/OtherNavLayout";
 
 const ColdChainTransport = () => {
     return (
         <div>
-            <NavLayout/>
+            <OtherNavLayout/>
             <CCTBanner/>
             <ColdChainComponent/>
             <Transportation/>

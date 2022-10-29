@@ -8,7 +8,7 @@ import serviceImg3 from '../../../../../assets/images/service_img_3.ea841d04.jpg
 function Service() {
   return (
     <div>
-        <section id="services" data-aos="fade-up">
+        <section id="services"  data-aos="fade-up">
             <div className="container-fluid">
             <div className="center_title p-0 m-0">
                 <h3 className="text-center text-dark title-fm">Our Features</h3>
@@ -21,62 +21,62 @@ function Service() {
                 </p>
             </div>
 
-            <div className="row" >
-                <div className="col-md-6 col-lg-4 our_service_card_container">
-                <div className="our_service_card">
-                    <div className="service_card_img">
-                    <img src={serviceImg1} alt="" className="img-fluid" />
+            <div className="d-flex flex-wrap" >
+                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                        <div className="our_service_card">
+                            <div className="service_card_img">
+                                <img src={serviceImg1} alt="" className="img-fluid" />
+                            </div>
+                            <div className="service_card_title">
+                                <h5>Easy To Use Application</h5>
+                            </div>
+                            <div className="service_card_body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+                                    assumenda praesentium. Ea inventore velit quae dolores fugiat delectus
+                                    veritatis eligendi nesciunt optio ullam, consectetur natus itaque
+                                    perspiciatis, quisquam unde? Placeat.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="service_card_title">
-                    <h5>Easy To Use Application</h5>
+                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                        <div className="our_service_card">
+                            <div className="service_card_img">
+                                <img src={serviceImg2} alt="" className="img-fluid" />
+                            </div>
+                            <div className="service_card_title">
+                                <h5>Fresh Fruits and Vegetables</h5>
+                            </div>
+                            <div className="service_card_body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+                                    assumenda praesentium. Ea inventore velit quae dolores fugiat delectus
+                                    veritatis eligendi nesciunt optio ullam, consectetur natus itaque
+                                    perspiciatis, quisquam unde? Placeat.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="service_card_body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-                        assumenda praesentium. Ea inventore velit quae dolores fugiat delectus
-                        veritatis eligendi nesciunt optio ullam, consectetur natus itaque
-                        perspiciatis, quisquam unde? Placeat.
-                    </p>
+                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                        <div className="our_service_card">
+                            <div className="service_card_img">
+                                <img src={serviceImg3} alt="" className="img-fluid" />
+                            </div>
+                            <div className="service_card_title">
+                                <h5 className="title-fm">Quick Delivery System</h5>
+                            </div>
+                            <div className="service_card_body body-fm">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+                                    assumenda praesentium. Ea inventore velit quae dolores fugiat delectus
+                                    veritatis eligendi nesciunt optio ullam, consectetur natus itaque
+                                    perspiciatis, quisquam unde? Placeat.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div className="col-md-6 col-lg-4 our_service_card_container">
-                <div className="our_service_card">
-                    <div className="service_card_img">
-                    <img src={serviceImg2} alt="" className="img-fluid" />
-                    </div>
-                    <div className="service_card_title">
-                    <h5>Fresh Fruits and Vegetables</h5>
-                    </div>
-                    <div className="service_card_body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-                        assumenda praesentium. Ea inventore velit quae dolores fugiat delectus
-                        veritatis eligendi nesciunt optio ullam, consectetur natus itaque
-                        perspiciatis, quisquam unde? Placeat.
-                    </p>
-                    </div>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-4 our_service_card_container">
-                <div className="our_service_card">
-                    <div className="service_card_img">
-                    <img src={serviceImg3} alt="" className="img-fluid" />
-                    </div>
-                    <div className="service_card_title">
-                    <h5 className="title-fm">Quick Delivery System</h5>
-                    </div>
-                    <div className="service_card_body body-fm">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
-                        assumenda praesentium. Ea inventore velit quae dolores fugiat delectus
-                        veritatis eligendi nesciunt optio ullam, consectetur natus itaque
-                        perspiciatis, quisquam unde? Placeat.
-                    </p>
-                    </div>
-                </div>
-                </div>
-            </div>
             </div>
         </section>
     </div>

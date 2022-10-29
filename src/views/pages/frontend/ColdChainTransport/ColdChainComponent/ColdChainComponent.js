@@ -3,8 +3,8 @@ import './ColdChainComponent.scss';
 const ColdChainComponent = () => {
     return (
         <section className="cc_section" data-aos="fade-up" id="mission">
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid m-0 p-0">
+                <div className="d-flex flex-wrap">
                     <div className="col-md-6 mission_text">
                         <div className="main_title">
                             <h3 className="text-center title-fm">Our Cold Chain</h3>

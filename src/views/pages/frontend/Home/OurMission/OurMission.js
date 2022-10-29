@@ -5,8 +5,8 @@ function OurMission() {
   return (
     <div>
         <section className="mission_section" data-aos="fade-up" id="mission">
-            <div className="container-fluid">
-            <div className="row" >
+            <div className="container-fluid m-0 p-0">
+            <div className="d-flex flex-wrap" >
                 <div className="col-md-6 mission_text my-3">
                 <div className="main_title">
                     <h3 className="text-center text-black title-fm">Our Mission</h3>

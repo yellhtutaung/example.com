@@ -6,8 +6,8 @@ import malaysia from '../../../../../assets/images/malaysia.jpg';
 const TargetMarkets = () => {
     return (
         <section id="market" data-aos="fade-up">
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid m-0 p-0">
+                <div className="d-flex flex-wrap">
                     <div
                         className="col-md-6 col-lg-4 our_market_card_container"
                     >

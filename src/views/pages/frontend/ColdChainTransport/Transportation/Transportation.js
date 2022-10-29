@@ -3,8 +3,8 @@ import './Transportation.scss';
 const Transportation = () => {
     return (
         <section className="transport_section" data-aos="fade-up">
-            <div className="container-fluid">
-                <div className="row" >
+            <div className="container-fluid m-0 p-0">
+                <div className="d-flex flex-wrap" >
                     <div className="col-md-6 transport_bg"></div>
                     <div className="col-md-6 transport_text">
                         <div className="main_title text-dark">

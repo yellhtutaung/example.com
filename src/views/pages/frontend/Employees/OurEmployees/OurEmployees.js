@@ -6,7 +6,7 @@ import profile_4 from '../../../../../assets/images/employee_profile_4.jpg';
 
 const OurEmployees = () => {
     return (
-        <div className="container-fluid py-5">
+        <div className="container-fluid m-0 p-0 py-5">
             <div className="row g-2">
                 <div
                     className="col-md-6 col-lg-4 col-xl-3 p-3"
