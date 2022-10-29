@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const NavbarOverlayComponent = () =>
 {
@@ -10,12 +11,12 @@ const NavbarOverlayComponent = () =>
         <div id="navbar_overlay" className="overlay">
             <a href="javascript:void(0)" onClick={overlayClose} className="closebtn" >&times;</a>
             <div className="overlay-content">
-                <a href='/' >Home</a>
-                <a href='/employees' >Employees</a>
-                <a href='/client' >Client and Future Plans</a>
-                <a href='/partnerships' >About Partnerships</a>
-                <a href='/target-market' >Target of Market</a>
-                <a href='/coldchain-transport' >Cold Chain and Transportation</a>
+                <Link to="/">Home</Link>
+                <Link to="/employees">Employees</Link>
+                <Link to="/client">Client and Future Plans</Link>
+                <Link to="/partnerships">About Partnerships</Link>
+                <Link to="/target-market">Target of Market</Link>
+                <Link to="/coldchain-transport">Cold Chain and Transportation</Link>
             </div>
         </div>
     )

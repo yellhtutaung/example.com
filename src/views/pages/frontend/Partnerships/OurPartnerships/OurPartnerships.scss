@@ -47,8 +47,8 @@
     .carrier,
     .samsung,
     .panasonic {
-      width: 150px;
-      height: 150px;
+      width: 160px;
+      height: 160px;
     }
     .carrier {
       background-image: url("../../../../../assets/images/carrier.png");
@@ -61,12 +61,16 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
+      width: 200px;
+      height: 200px;
     }
     .panasonic {
       background-image: url("../../../../../assets/images/panasonic.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
+      width: 200px;
+      height: 200px;
     }
   }
 }

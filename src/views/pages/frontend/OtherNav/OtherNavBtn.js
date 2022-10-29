@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 const NavBtn = () =>
 {
     const overlayOpen = () => {
+        console.log(window.location.pathname)
         document.getElementById("navbar_overlay").style.height = "100%";
     }
     return (

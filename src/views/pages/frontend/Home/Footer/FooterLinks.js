@@ -1,7 +1,9 @@
 import React from 'react'
 import './FooterLinks.scss'
+import { Link } from "react-router-dom";
 
 function FooterLinks() {
+
   return (
     <div>
         <div className="container mb-3">
@@ -33,11 +35,11 @@ function FooterLinks() {
                     excepturi quos?
                     </p>
                     <div className="footer_links2 body-fm">
-                        <a href='/employees' >Employees</a>
-                        <a href='/client' >Client and Future Plans</a>
-                        <a href='/partnerships' >About Partnerships</a>
-                        <a href='/target-market' >Target of Market</a>
-                        <a href='/coldchain-transport' >Cold Chain and Transportation</a>
+                        <Link to="/employees">Employees</Link>
+                        <Link to="/client">Client and Future Plans</Link>
+                        <Link to="/partnerships">About Partnerships</Link>
+                        <Link to="/target-market">Target of Market</Link>
+                        <Link to="/coldchain-transport">Cold Chain and Transportation</Link>
                     </div>
                 </div>
             </div>
