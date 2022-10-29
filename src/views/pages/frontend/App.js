@@ -1,13 +1,14 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './Global.scss'
+import Home from './Home/Home';
+import Employees from './Employees/Employees';
+import Client from "./Client/Client";
+import Partnerships from "./Partnerships/Partnerships";
+import TargetMarket from "./TargetMarket/TargetMarket";
+import ColdChainTransport from "./ColdChainTransport/ColdChainTransport";
 // import NavbarOverlayComponent from './Navbar/NavbarOverlayComponent';
-import NavLayout from "./Navbar/NavLayout";
-import Carousel from './Carousel/Carousel';
-import Service from './Service/Service';
-import About from './About/About';
-import ItProducts from './ItProducts/ItProducts';
-import OurMission from './OurMission/OurMission';
-import Footer from './Footer/Footer';
+
 
 const App= () =>
 {
@@ -15,15 +16,16 @@ const App= () =>
 
   const Website = "freshmoe.com";
   return (
-      <div>
-          <NavLayout/>
-          <Carousel/>
-          <Service/>
-          <About/>
-          <ItProducts/>
-          <OurMission/>
-          <Footer/>
-      </div>
+          <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home/>} />
+                <Route path="/employees" element={<Employees />} />
+                <Route path="/client" element={<Client/>}/>
+                <Route path='/partnerships' element={<Partnerships/>} />
+                <Route path='/target-market' element={<TargetMarket/>} />
+                <Route path='/coldchain-transport' element={<ColdChainTransport/>} />
+            </Routes>
+          </BrowserRouter>
   );
 }
 

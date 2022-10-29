@@ -1,0 +1,28 @@
+.transport_section {
+  background-color: rgba(205, 202, 202, 0.105);
+  .transport_bg {
+    display: flex;
+    justify-content: center;
+  }
+  .transport_text {
+    padding: 20px;
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+  }
+  @media screen and (min-width: 765px) {
+    .main_title {
+      color: white;
+    }
+    .transport_bg {
+      background-image: url('../../../../../assets/images/transport.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .transport_text {
+      padding: 50px;
+    }
+  }
+}
