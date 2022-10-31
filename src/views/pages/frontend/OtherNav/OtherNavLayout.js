@@ -28,7 +28,6 @@ const OtherNavLayout = () =>
                             <li>
                                 <NavBtn />
                                 <a href="/"> Home</a>
-
                             </li>
                         </ul>
                     </div>
