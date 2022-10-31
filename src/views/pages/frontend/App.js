@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './Global.scss'
-import Home from './Home/Home';
 import Employees from './Employees/Employees';
 import Client from "./Client/Client";
 import Partnerships from "./Partnerships/Partnerships";
 import TargetMarket from "./TargetMarket/TargetMarket";
 import ColdChainTransport from "./ColdChainTransport/ColdChainTransport";
+import Home from './Home/Home';
 // import NavbarOverlayComponent from './Navbar/NavbarOverlayComponent';
 
 

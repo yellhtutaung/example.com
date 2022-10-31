@@ -22,13 +22,14 @@ function Service() {
             </div>
 
             <div className="d-flex flex-wrap" >
-                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                    <div className="col-md-6 col-lg-4 our_service_card_container p-2">
                         <div className="our_service_card">
                             <div className="service_card_img">
                                 <img src={serviceImg1} alt="" className="img-fluid" />
                             </div>
                             <div className="service_card_title">
                                 <h5>Easy To Use Application</h5>
+                                <div className='service_underline'></div>
                             </div>
                             <div className="service_card_body">
                                 <p>
@@ -40,13 +41,14 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                    <div className="col-md-6 col-lg-4 our_service_card_container p-2">
                         <div className="our_service_card">
                             <div className="service_card_img">
                                 <img src={serviceImg2} alt="" className="img-fluid" />
                             </div>
                             <div className="service_card_title">
                                 <h5>Fresh Fruits and Vegetables</h5>
+                                <div className='service_underline'></div>
                             </div>
                             <div className="service_card_body">
                                 <p>
@@ -58,13 +60,14 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                    <div className="col-md-6 col-lg-4 our_service_card_container p-2">
                         <div className="our_service_card">
                             <div className="service_card_img">
                                 <img src={serviceImg3} alt="" className="img-fluid" />
                             </div>
                             <div className="service_card_title">
                                 <h5 className="title-fm">Quick Delivery System</h5>
+                                <div className='service_underline'></div>
                             </div>
                             <div className="service_card_body body-fm">
                                 <p>

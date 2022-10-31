@@ -5,12 +5,28 @@
   }
 }
 .socials {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .social_icon {
   color: #ED1C24;
   display: block;
   margin: 0 5px;
   font-size: 1.5rem;
+}
+
+.red_block {
+  background-color: #ED1C24;
+  width: 100%;
+  min-height: 10px;
+}
+.green_block {
+  background-color: #5BBA47;
+  width: 100%;
+  min-height: 30px;
+}
+.white_block {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 5px;
 }

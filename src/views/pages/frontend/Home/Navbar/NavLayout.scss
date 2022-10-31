@@ -34,9 +34,11 @@ nav li.router-link-active {
         display: flex;
         justify-content: center;
     ul {
+        margin: 0;
+        padding: 0;
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
     li {
         list-style: none;
@@ -58,8 +60,9 @@ nav li.router-link-active {
     display: flex;
     justify-content: center;
 ul {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 li {
     list-style: none;
