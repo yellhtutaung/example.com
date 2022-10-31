@@ -6,12 +6,11 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    border-right: 3px solid #ebebeb;
     .our_service_card {
       margin-top: 6rem;
       margin-bottom: 1rem;
       position: relative;
-      width: 80%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -69,6 +68,7 @@
   }
   @media screen and (min-width: 768px) {
     .our_service_card_container {
+      border-right: 3px solid #ebebeb;
       .our_service_card {
         margin-top: 4rem;
         width: 65%;

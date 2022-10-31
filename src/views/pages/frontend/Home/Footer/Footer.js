@@ -26,7 +26,7 @@ function Footer() {
                 <div className="socials">
                 <p className="text-center">Phone: 091234567</p>
                 <h5 className="text-center">Follow Us</h5>
-                <div className="d-flex justify-content-center my-3">
+                <div className="d-flex justify-content-center my-3 mt-2">
                     <a href="/" className="social_icon">
                         <FacebookIcon/>
                     </a>
@@ -43,7 +43,11 @@ function Footer() {
                         <LinkedInIcon/>
                     </a>
                 </div>
+
             </div>
+            <div className="red_block"></div>
+            <div className="white_block"></div>
+            <div className="green_block"></div>
         </section>
     </div>
   )

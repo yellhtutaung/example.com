@@ -22,7 +22,7 @@ function Service() {
             </div>
 
             <div className="d-flex flex-wrap" >
-                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                    <div className="col-md-6 col-lg-4 our_service_card_container p-2">
                         <div className="our_service_card">
                             <div className="service_card_img">
                                 <img src={serviceImg1} alt="" className="img-fluid" />
@@ -40,7 +40,7 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                    <div className="col-md-6 col-lg-4 our_service_card_container p-2">
                         <div className="our_service_card">
                             <div className="service_card_img">
                                 <img src={serviceImg2} alt="" className="img-fluid" />
@@ -58,7 +58,7 @@ function Service() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 our_service_card_container">
+                    <div className="col-md-6 col-lg-4 our_service_card_container p-2">
                         <div className="our_service_card">
                             <div className="service_card_img">
                                 <img src={serviceImg3} alt="" className="img-fluid" />
