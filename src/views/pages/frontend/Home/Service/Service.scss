@@ -24,6 +24,11 @@
         padding-left: 20px;
         margin-top: 20px;
         font-family: "Merriweather", serif;
+        .service_underline{
+          background-color:  #5BBA47;
+          height: 2px;
+          width: 80px;
+        }
       }
       .service_card_body {
         padding: 20px;

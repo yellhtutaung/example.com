@@ -17,10 +17,10 @@ const OurEmployees = () => {
                         </div>
                         <div className="employee_info p-2 mt-3">
                             <div className="name title-fm">
-                                <div className="title title-fm text-center fw-bold">Chief Executive Officer</div>
+                                <h5 className=" title-fm text-center fw-bold">Chief Executive Officer</h5>
                             </div>
 
-                            <div className="description body-fm text-center mt-2">
+                            <div className="description body-fm text-center mt-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis distinctio
                                 odit, eos odio obcaecati vitae commodi nulla voluptates eius accusantium ad
                                 blanditiis corporis, nam ipsa ex fugiat illum eligendi.
@@ -42,10 +42,10 @@ const OurEmployees = () => {
                         </div>
                         <div className="employee_info p-2 mt-3">
                             <div className="name title-fm">
-                                <div className="title title-fm text-center fw-bold">Web developer</div>
+                                <h5 className="title-fm text-center fw-bold">Web developer</h5>
                             </div>
 
-                            <div className="description body-fm text-center mt-2">
+                            <div className="description body-fm text-center mt-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis distinctio
                                 odit, eos odio obcaecati vitae commodi nulla voluptates eius accusantium ad
                                 blanditiis corporis, nam ipsa ex fugiat illum eligendi.
@@ -67,10 +67,10 @@ const OurEmployees = () => {
                         </div>
                         <div className="employee_info p-2 mt-3">
                             <div className="name title-fm">
-                                <div className="title title-fm text-center fw-bold">Android developer</div>
+                                <h5 className="title-fm text-center fw-bold">Android developer</h5>
                             </div>
 
-                            <div className="description body-fm text-center mt-2">
+                            <div className="description body-fm text-center mt-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis distinctio
                                 odit, eos odio obcaecati vitae commodi nulla voluptates eius accusantium ad
                                 blanditiis corporis, nam ipsa ex fugiat illum eligendi.
@@ -92,10 +92,10 @@ const OurEmployees = () => {
                         </div>
                         <div className="employee_info p-2 mt-3">
                             <div className="name title-fm">
-                                <div className="title title-fm text-center fw-bold">Graphic Designer</div>
+                                <h5 className="title-fm text-center fw-bold">Graphic Designer</h5>
                             </div>
 
-                            <div className="description body-fm text-center mt-2">
+                            <div className="description body-fm text-center mt-3">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis distinctio
                                 odit, eos odio obcaecati vitae commodi nulla voluptates eius accusantium ad
                                 blanditiis corporis, nam ipsa ex fugiat illum eligendi.

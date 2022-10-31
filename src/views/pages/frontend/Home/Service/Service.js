@@ -29,6 +29,7 @@ function Service() {
                             </div>
                             <div className="service_card_title">
                                 <h5>Easy To Use Application</h5>
+                                <div className='service_underline'></div>
                             </div>
                             <div className="service_card_body">
                                 <p>
@@ -47,6 +48,7 @@ function Service() {
                             </div>
                             <div className="service_card_title">
                                 <h5>Fresh Fruits and Vegetables</h5>
+                                <div className='service_underline'></div>
                             </div>
                             <div className="service_card_body">
                                 <p>
@@ -65,6 +67,7 @@ function Service() {
                             </div>
                             <div className="service_card_title">
                                 <h5 className="title-fm">Quick Delivery System</h5>
+                                <div className='service_underline'></div>
                             </div>
                             <div className="service_card_body body-fm">
                                 <p>
