@@ -28,7 +28,7 @@ const OurEmployees = () => {
 
                             <div className="footer title-fm text-center mt-4">
                                 Thura Moe
-                                <div className="title title-fm mt-2">Chief Executive Officer of Fresh Moe</div>
+                                <div className="title title-fm mt-2">Chief Executive Officer</div>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const OurEmployees = () => {
 
                             <div className="footer title-fm text-center mt-4">
                                 Aung Chan Oo
-                                <div className="title title-fm mt-2">Web developer of Fresh Moe</div>
+                                <div className="title title-fm mt-2">Web developer</div>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ const OurEmployees = () => {
 
                             <div className="footer title-fm text-center mt-4">
                                 Kyaw Thet Naing
-                                <div className="title title-fm mt-2">Android developer of Fresh Moe</div>
+                                <div className="title title-fm mt-2">Android developer</div>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const OurEmployees = () => {
 
                             <div className="footer title-fm text-center mt-4">
                                 Zaw Myat Aung
-                                <div className="title title-fm mt-2">Graphic designer of Fresh Moe</div>
+                                <div className="title title-fm mt-2">Graphic designer</div>
                             </div>
                         </div>
                     </div>
