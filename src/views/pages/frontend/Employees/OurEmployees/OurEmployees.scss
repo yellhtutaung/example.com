@@ -1,23 +1,49 @@
+//.row {
+//  margin: 0 auto;
+//  max-width: 95em;
+//  .employee_card {
+//    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//    border-radius: 10px;
+//    transition: all 0.3s;
+//    img {
+//      width: 150px;
+//      height: 150px;
+//      object-fit: cover;
+//      border-radius: 50%;
+//    }
+//    .footer div {
+//      font-size: 12px !important;
+//    }
+//    &:hover {
+//      transform: translateY(-20px);
+//      cursor: pointer;
+//    }
+//  }
+//}
+//@media screen and (min-width: 768px) {
+//}
+
+
 .row {
   margin: 0 auto;
   max-width: 95em;
-  .employee_card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    transition: all 0.3s;
-    img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
-    .footer div {
-      font-size: 12px !important;
-    }
-    &:hover {
-      transform: translateY(-20px);
-      cursor: pointer;
-    }
+}
+.employee_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s;
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .footer div {
+    font-size: 12px !important;
+  }
+  &:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 768px) {
