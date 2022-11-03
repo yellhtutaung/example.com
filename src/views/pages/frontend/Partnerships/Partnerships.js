@@ -1,8 +1,8 @@
 import NavLayout from "../Home/Navbar/NavLayout";
 import OurPartnerships from "./OurPartnerships/OurPartnerships";
-import OtherFooter from "../OtherFooter/OtherFooter";
+import OtherFooter from "../reusable/OtherFooter/OtherFooter";
 import OtherNavLayout from "../OtherNav/OtherNavLayout";
-import GoToShop from "../GoToShop/GoToShop";
+import GoToShop from "../reusable/GoToShop/GoToShop";
 
 const Partnerships = () => {
     return (

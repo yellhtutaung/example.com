@@ -1,6 +1,6 @@
 import './OtherFooter.scss'
 import OtherFooterFooterLinks from "./OtherFooterLinks";
-import ContactForm from "../Home/Footer/ContactForm";
+import ContactForm from "../../Home/Footer/ContactForm";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";

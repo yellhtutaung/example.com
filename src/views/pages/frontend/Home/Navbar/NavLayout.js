@@ -3,10 +3,14 @@ import './NavLayout.scss';
 import NavBtn from './NavBtn';
 import FreshmoeLogo from  '../../../../../assets/images/freshmoe_logo.png';
 import NavbarOverlayComponent from "./Overlay/NavbarOverlayComponent";
+import {Link} from "react-router-dom";
 
 
 const NavLayout = () =>
 {
+  const gotop = () => {
+    window. scrollTo(0, 0)
+  }
   return (
       <div>
         <NavbarOverlayComponent/>
@@ -27,7 +31,8 @@ const NavLayout = () =>
               <ul>
                 <li>
                   <NavBtn/>
-                  <a href="/"> Home</a>
+                  {/*<a href="/"> Home</a>*/}
+                  <Link to="/" onClick={gotop}>Home</Link>
                   <a href="#services">Services</a>
                   <a href="#aboutus">About Us</a>
                 </li>
