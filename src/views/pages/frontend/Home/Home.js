@@ -6,7 +6,7 @@ import ItProducts from './ItProducts/ItProducts'
 import NavLayout from './Navbar/NavLayout'
 import OurMission from './OurMission/OurMission'
 import Service from './Service/Service'
-import GoToShop from "../GoToShop/GoToShop";
+import GoToShop from "../reusable/GoToShop/GoToShop";
 
 const Home = () => {
   return (

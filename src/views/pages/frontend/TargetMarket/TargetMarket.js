@@ -1,8 +1,8 @@
 import TargetMarketBanner from "./TargetMarketBanner/TargetMarketBanner";
 import TargetMarkets from "./TargetMarkets/TargetMarkets";
-import OtherFooter from "../OtherFooter/OtherFooter";
+import OtherFooter from "../reusable/OtherFooter/OtherFooter";
 import OtherNavLayout from "../OtherNav/OtherNavLayout";
-import GoToShop from "../GoToShop/GoToShop";
+import GoToShop from "../reusable/GoToShop/GoToShop";
 
 const TargetMarket = () => {
     return (
