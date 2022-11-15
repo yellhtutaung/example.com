@@ -25,10 +25,10 @@ const OtherFooter = () => {
                     </div>
                 </div>
                 <hr />
-                <div className="socials">
+                <div className="socials body-fm">
                     <p className="text-center">Phone: 091234567</p>
-                    <h5 className="text-center">Follow Us</h5>
-                    <div className="d-flex justify-content-center my-3 mt-2">
+                    <h5 className="text-center my-1">Follow Us</h5>
+                    <div className="d-flex justify-content-center my-1">
                         <a href="/src/views/pages" className="social_icon">
                             <FacebookIcon/>
                         </a>
@@ -46,9 +46,6 @@ const OtherFooter = () => {
                         </a>
                     </div>
                 </div>
-                <div className="red_block"></div>
-                <div className="white_block"></div>
-                <div className="green_block"></div>
             </section>
         </div>
 

@@ -33,7 +33,7 @@
     position: relative;
     width: 100%;
     background-color: #ffffff;
-    padding: 1.5em;
+    padding: 20px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%),
@@ -51,7 +51,7 @@
       padding: 0.5em 1.5em;
       background-color: #ED1C24;
       color: #ffffff;
-      border: 1px solid;
+      border: 2px solid;
       border-radius: 45px;
       cursor: pointer;
       &:hover {

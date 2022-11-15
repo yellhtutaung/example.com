@@ -18,7 +18,7 @@ export default function Carousel() {
           slidesPerView={1}
           scrollbar={{ draggable: true }}
           autoplay={{
-            delay: 4000,
+            delay: 3000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
@@ -29,7 +29,7 @@ export default function Carousel() {
             <div class="slide-container carousel-1" >
               <div class="container py-5">
                 <div class="content col-md-10 col-lg-8 col-xl-7 p-2 py-5 ">
-                "Eat fresh food for your health! For fresh fruits and vegetables, remember Fresh Moe! ",
+                "Eat fresh food for your health! For fresh fruits and vegetables, remember <b>Fresh Moe</b>! ",
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function Carousel() {
             <div class="slide-container carousel-2" >
               <div class="container py-5">
                 <div class="content col-md-10 col-lg-8 col-xl-7 p-2 py-5 ">
-                "Eat fresh food for your health! For fresh fruits and vegetables, remember Fresh Moe! ",
+                  "100% organic Fruits & Vegetables"
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ export default function Carousel() {
             <div class="slide-container carousel-3" >
               <div class="container py-5">
                 <div class="content col-md-10 col-lg-8 col-xl-7 p-2 py-5 ">
-                "100% organic Fruits & Vegetables"
+                  We will always serve you with quick delivery system!
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function Carousel() {
             <div class="slide-container carousel-4" >
               <div class="container py-5">
                 <div class="content col-md-10 col-lg-8 col-xl-7 p-2 py-5 ">
-                "Eat fresh food for your health! For fresh fruits and vegetables, remember Fresh Moe! ",
+                "Eat fresh food for your health! For fresh fruits and vegetables, remember <b>Fresh Moe</b>! ",
                 </div>
               </div>
             </div>

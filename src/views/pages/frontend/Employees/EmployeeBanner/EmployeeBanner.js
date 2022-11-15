@@ -6,8 +6,8 @@ const EmployeeBanner = () => {
             <div
                 class="employees_banner"
             >
-            <h1 class="text-white title-fm">Our Employees</h1>
-        </div>
+                <h1 class="text-white title-fm">Our Employees</h1>
+            </div>
         </div>
     )
 }

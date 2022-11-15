@@ -11,7 +11,7 @@ function Service() {
         <section id="services"  data-aos="fade-up">
             <div className="container-fluid">
             <div className="center_title p-0 m-0">
-                <h3 className="text-center text-dark title-fm">Our Features</h3>
+                <h3 className="text-center text-dark title-fm">Our Services</h3>
                 <span className="center_title_underline"></span>
                 <p className="text-dark body-fm p-3 col-md-10 col-lg-8 mx-auto text-center">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, assumenda
