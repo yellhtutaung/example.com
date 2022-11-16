@@ -1,5 +1,4 @@
 import React from 'react';
-import NavLayout from "./Navbar/NavLayout";
 import EmployeeBanner from './EmployeeBanner/EmployeeBanner.js';
 import  OurEmployees from './OurEmployees/OurEmployees'
 import OtherFooter from "../reusable/OtherFooter/OtherFooter";
