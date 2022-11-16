@@ -38,7 +38,7 @@ const GoToShop = () => {
                     <div className="header">Are you after fresh fruits and vegetables delivery?</div>
                     <div className="body">Please click below to order</div>
                     <span onClick={closeCard} className="close_card">&times;</span>
-                <a href="src/views/pages/frontend/reusable/GoToShop/GoToShop" className="redirect_btn w-100 text-center fw-bold">Go to Shopping</a>
+                <a href="https://staging.freshmoe.shop" className="redirect_btn w-100 text-center fw-bold">Go to Shopping</a>
                 </div>
             </div>
         </div>

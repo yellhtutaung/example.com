@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 const OtherNavLayout = () =>
 {
     const gotop = () => {
-        window. scrollTo(0, 0)
+        window.scrollTo(0, 0)
     }
     return (
         <div>

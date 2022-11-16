@@ -120,9 +120,8 @@
 
 .overlay a:hover,
 .overlay a:focus {
- color: #3c8132;
- //text-decoration: underline;
- transform: scale(1.1) translate(-20px , -5px);
+  color: #3c8132;
+  transform: scale(1.1) translate(0 , -5px);
 }
 
 .overlay .closebtn {
@@ -151,4 +150,9 @@
  .overlay a {
    font-size: 2rem;
  }
+ .overlay a:hover,
+  .overlay a:focus {
+    color: #3c8132;
+    transform: scale(1.1) translate(-20px , -5px);
+  }
 }

@@ -8,8 +8,7 @@ const NavBtn = () =>
         document.getElementById("navbar_overlay").style.height = "100%";
     }
     return (
-        <a href="javascript:void(0)" onClick={overlayOpen} className="menu_button "><MenuIcon/>
-        </a>
+        <a href="javascript:void(0)" onClick={overlayOpen} className="menu_button"><MenuIcon/></a>
     )
 }
 

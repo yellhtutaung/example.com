@@ -1,4 +1,3 @@
-import thailand from "../../../../../assets/images/thailand.jpg";
 
 const TargetMarketCard = (props) => {
     const {img, country, content} = props.data
